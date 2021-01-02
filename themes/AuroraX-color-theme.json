@@ -35,7 +35,7 @@
 		// Text colors
 		"textBlockQuote.background": "#323130",
 		"textBlockQuote.border": "#394f67",
-		"textCodeBlock.background": "#ff0000",
+		"textCodeBlock.background": "#394f67",
 		// "textLink.activeForeground": "#cad9ea"
 		"textLink.foreground": "#658db7",
 		"textPreformat.foreground": "#9bb7d4",
