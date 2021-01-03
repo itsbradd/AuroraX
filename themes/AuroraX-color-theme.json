@@ -6,7 +6,7 @@
 		"window.activeBorder": "#cad9ea",
 		"window.inactiveBorder": "#ff000000",
 		// "editor.background": "#263238",
-		// "editor.foreground": "#edebe9",
+		"editor.foreground": "#e1dfdd",
 		// "activityBarBadge.background": "#007acc",
 		// "sideBarTitle.foreground": "#bbbbbb"
 
@@ -182,7 +182,6 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -239,11 +238,8 @@
 			"scope": [
 				"constant.numeric",
 				"constant.language",
-				"support.constant",
 				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit"
+				"constant.escape"
 			],
 			"settings": {
 				"foreground": "#F78C6C"
@@ -298,7 +294,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#e1dfdd"
 			}
 		},
 		{
@@ -353,14 +349,38 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#658db7"
 			}
 		},
 		{
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#658db7"
+			}
+		},
+		{
+			"scope": "keyword.control.at-rule.media",
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#9bb7d4"
+			}
+		},
+		{
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#7499c0"
+			}
+		},
+		{
+			"scope": "meta.property-value",
+			"settings": {
+				"foreground": "#F78C6C"
 			}
 		},
 		{
@@ -395,7 +415,7 @@
 			"name": "Regular Expressions",
 			"scope": ["string.regexp"],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#EBCB8B"
 			}
 		},
 		{
@@ -415,12 +435,11 @@
 		{
 			"name": "Decorators",
 			"scope": [
-				"tag.decorator.js entity.name.tag.js",
+				"meta.decorator entity.name.function",
 				"tag.decorator.js punctuation.definition.tag.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#EBCB8B"
 			}
 		},
 		{
