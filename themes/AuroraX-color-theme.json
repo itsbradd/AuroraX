@@ -313,7 +313,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#EBCB8B"
 			}
 		},
 		{
